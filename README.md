@@ -21,10 +21,12 @@ CUDA_Project/
 ├── include/               
 │   ├── stb_image.h            # Lightweight image reading library
 │   └── stb_image_write.h      # Lightweight image writing library
+├── logs/                      # Execution logs and sample results
+│   └── Output.txt             # Terminal output log file
 ├── src/
 │   └── edgeDetectionPipeline.cu # Main CUDA source code
 ├── Makefile                   # Build script
-└── run.sh                     # Pipeline execution script (outputs to output.txt)
+└── run.sh                     # Pipeline execution script
 ```
 
 ## Why `stb_image`?
