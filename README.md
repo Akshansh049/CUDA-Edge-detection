@@ -24,7 +24,7 @@ CUDA_Project/
 ├── src/
 │   └── edgeDetectionPipeline.cu # Main CUDA source code
 ├── Makefile                   # Build script
-└── run.sh                     # Pipeline execution script
+└── run.sh                     # Pipeline execution script (outputs to output.txt)
 ```
 
 ## Why `stb_image`?
@@ -32,7 +32,12 @@ The standard lightweight image I/O headers (`stb_image.h` and `stb_image_write.h
 
 ## Execution in Coursera Lab
 
-To run the full pipeline (which will automatically download the SIPI Misc data, compile the CUDA program, and process the images):
+To run the full pipeline (which will automatically compile the CUDA program, process the images, and save logs to `output.txt`):
+
+```bash
+git clone https://github.com/Akshansh049/CUDA-Edge-detection.git
+cd CUDA-Edge-detection
+```
 
 ```bash
 # Ensure the run script is executable
