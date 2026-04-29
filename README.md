@@ -49,15 +49,10 @@ chmod +x run.sh
 
 Alternatively, you can run the steps manually:
 ```bash
-# 1. Download Dataset (or place images manually in data/input)
-wget https://sipi.usc.edu/database/misc.zip
-unzip misc.zip -d data/
-mv data/misc/* data/input/
-
-# 2. Build project
+# 1. Build project
 make
 
-# 3. Execute batch processing
+# 2. Execute batch processing
 ./bin/edgeDetectionPipeline data/input data/output
 ```
 
