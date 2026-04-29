@@ -58,4 +58,4 @@ make
 
 ## Evidence & Demonstration
 
-After running the pipeline, you will find the original images in `data/input` and their edge-detected counterparts in `data/output`. You can provide screenshots of these outputs as proof of execution for peer grading. The included `run.sh` terminal output serves as log file evidence.
+After running the pipeline, you will find the original images in `data/input` and their edge-detected counterparts in `data/output`.
